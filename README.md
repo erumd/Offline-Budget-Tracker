@@ -17,6 +17,8 @@ The user will be able to add expenses and deposits to their budget with or witho
 
 ## Deployment
 
+https://github.com/erumd/Offline-Budget-Tracker
+
 ## Installation
 
 1. After cloning repo to your device locate the folder
