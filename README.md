@@ -22,7 +22,9 @@ https://github.com/erumd/Offline-Budget-Tracker
 ## Installation
 
 1. After cloning repo to your device locate the folder
+
 2. In terminal run "npm install"
+
 3. In terminal command line run "npm start"
 
 ## Features
