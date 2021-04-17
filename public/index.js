@@ -1,7 +1,7 @@
 let transactions = [];
 let myChart;
 
-fetch('https://erumbudgettracker.herokuapp.com/api/transaction')
+fetch('/api/transaction')
   .then((response) => {
     return response.json();
   })
@@ -114,7 +114,7 @@ function sendTransaction(isAdding) {
   populateTotal();
 
   // also send to server
-  fetch('https://erumbudgettracker.herokuapp.com/api/transaction', {
+  fetch('/api/transaction', {
     method: 'POST',
     body: JSON.stringify(transaction),
     headers: {
